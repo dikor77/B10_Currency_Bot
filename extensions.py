@@ -7,7 +7,7 @@ from config import keys, payload, headers
 class ConversionException(Exception):
     pass
 
-class CryptoConverter:
+class Converter:
     
     @staticmethod
     def convert(quote:str, base:str, amount:str):
