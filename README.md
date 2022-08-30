@@ -1,7 +1,7 @@
 <h1>B10.6 Контрольный проект. Телеграм бот</h1>
-Для работы в config.py нужно определить
-#для телеграм бота
-TOKEN = ''
-#для www.exchange-rates.com/
-API_KEY = ''
+<p>Для работы в config.py нужно определить:</p>
+<p>#для телеграм бота</p>
+<p>TOKEN = ''</p>
+<p>#для www.exchange-rates.com/</p>
+<p>API_KEY = ''</p>
 
