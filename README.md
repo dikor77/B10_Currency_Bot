@@ -1,2 +1,7 @@
-# B10_Currency_Bot
+<h1>B10.6 Контрольный проект. Телеграм бот</h1>
+Для работы в config.py нужно определить
+#для телеграм бота
+TOKEN = ''
+#для www.exchange-rates.com/
+API_KEY = ''
 
