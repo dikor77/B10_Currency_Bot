@@ -30,7 +30,7 @@ def convert(message: telebot.types.Message):
             raise(ConversionException("Количество параметров должно быть равно 3"))
 
         quote, base, amount = map(str.lower, values)
-        total_base = Converter.convert(quote, base, amount)
+        total_base = Converter.get_price(quote, base, amount)
     except ConversionException as e:
         bot.reply_to(message, f"Ошибка пользователя. \n{e}")
     except Exception as e:

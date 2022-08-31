@@ -10,7 +10,7 @@ class ConversionException(Exception):
 class Converter:
     
     @staticmethod
-    def convert(quote:str, base:str, amount:str):
+    def get_price(quote:str, base:str, amount:str):
         if quote == base:
             raise(ConversionException("Валюты должны быть разные"))
 
